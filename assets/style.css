@@ -1,3 +1,88 @@
+body{
+    margin: 0;
+}
 .container{
     display:flex;
+    width: 100%;
+    height: 100vh;
+}
+.left-side{
+    width:50%;
+    padding: 5%;
+    background: url('http://127.0.0.1:5500/images/bg-pattern-desktop.svg');
+    background-size: 100%;
+    background-position: top;
+}
+.right-side{
+    width: 40%;
+    height:100vh;
+    background: url('http://127.0.0.1:5500/images/hero-desktop.jpeg');
+    background-position: top;
+    background-size: auto;
+    background-repeat:no-repeat;
+}
+.tagline{
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'roboto';
+    letter-spacing: 15px;
+    font-weight:500;
+    padding: 0;
+    margin: .5em 0;
+}
+
+p{
+    font-family: 'Edu NSW ACT Foundation';
+    font-size: 1.3em;
+    font-weight: 100;
+    color: #727272;
+    font-weight: 300;
+}
+
+.pinkypart{
+    color:#f09394;
+    font-weight: 100;
+}
+
+form{
+    margin-top:2.5em;
+}
+
+input[type="text"]{
+    padding: 10px 18px;
+    width: 44%;
+    border-radius: 100px;
+    border: 1px #c1c1c1 solid;
+}
+button[type="submit"]{
+    padding: 7px 30px;
+    background-image: linear-gradient(90deg, #fac1a6, #eb9876);
+    border: 0;
+    border-radius: 100px;
+    margin: 0;
+    vertical-align: bottom;
+    margin-left: -58px;
+    box-shadow: -5px 0px 10px -8px black;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        display:block;
+    }
+    .right-side{
+        width: 100%;
+        height:35vh;
+        background: url('http://127.0.0.1:5500/images/hero-mobile.jpeg');
+        background-size: 100%;
+        background-repeat:no-repeat;
+        background-position: top;
+        position:absolute;
+        top: 0px;
+    }
+    .left-side{
+        width: 90%;
+        position: relative;
+        margin-top: 35vh;
+        background-size: auto;
+    }
 }
