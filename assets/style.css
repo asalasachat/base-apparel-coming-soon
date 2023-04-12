@@ -9,14 +9,14 @@ body{
 .left-side{
     width:50%;
     padding: 5%;
-    background: url('http://127.0.0.1:5500/images/bg-pattern-desktop.svg');
+    background: url('../images/bg-pattern-desktop.svg');
     background-size: 100%;
     background-position: top;
 }
 .right-side{
     width: 40%;
     height:100vh;
-    background: url('http://127.0.0.1:5500/images/hero-desktop.jpeg');
+    background: url('../images/hero-desktop.jpeg');
     background-position: top;
     background-size: auto;
     background-repeat:no-repeat;
