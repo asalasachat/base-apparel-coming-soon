@@ -72,7 +72,7 @@ button[type="submit"]{
     .right-side{
         width: 100%;
         height:35vh;
-        background: url('http://127.0.0.1:5500/images/hero-mobile.jpeg');
+        background: url('../images/hero-mobile.jpeg');
         background-size: 100%;
         background-repeat:no-repeat;
         background-position: top;
